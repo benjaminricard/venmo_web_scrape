@@ -9,7 +9,7 @@ from urllib2 import urlopen
 import sys
 import urllib2
 from random import randint
-list = [1497484800,1494806400]
+list = [TIME1, TIME2]
 start = list[int(sys.argv[1])]
 	# Initialize json objects, arrays
 URL = "https://venmo.com/api/v5/public?until="+str(start)
