@@ -1,6 +1,6 @@
 # venmo_web_scrape
 
-Python webscraper for the Venmo API
+Python webscraper for the Venmo API. The other ones I found online are not updated for the newest api.
 
 Relatively simple webscraper, taking two arguements of epoch times (GMT) for start and end of analysis, returning all elements from the venmo API and writing them to a csv file.
 
